@@ -28,3 +28,5 @@ class myApp extends StatelessWidget {
     );
   }
 }
+// figma design
+//https://www.figma.com/design/0vuzaCK5TyE363Njog2u0K/App-Online-Course-Freebies-(Community)?node-id=7-220&node-type=frame&t=5c8qDyeo2tYCjnX3-0
