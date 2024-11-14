@@ -26,8 +26,8 @@ class MyHorizontalList extends StatelessWidget {
             begin: Alignment.topLeft,
             // end:  Alignment(1, 0.0),
             colors: [
-              Color(startColor).withOpacity(0.3),
-              Color(endColor).withOpacity(0.6),
+              Color(startColor),
+              Color(endColor),
 
         ])
         ),
@@ -43,7 +43,7 @@ class MyHorizontalList extends StatelessWidget {
                   height: 39,
                   width: 115,
                   decoration: BoxDecoration(
-                    color: Color(0xAFA8EE).withOpacity(0.3), // be careful to add 0x before color code
+                    color: Color(0xFFAFA8EE), // be careful to add 0x before color code
                     borderRadius: BorderRadius.circular(36)
                   ),
                   child: Text(courseHeadline,style: GoogleFonts.roboto(  // import before use googlefont
