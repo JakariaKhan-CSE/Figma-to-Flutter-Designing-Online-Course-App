@@ -18,7 +18,8 @@ class myApp extends StatelessWidget {
           // Define the default brightness and colors.
           colorScheme: ColorScheme.fromSeed(
             // this theme is primary color
-            seedColor: Color(0x29274F), // 29274F copy from figma
+            // 0xFF before add color code
+            seedColor: Color(0xFF29274F), // 29274F copy from figma
             // ···
             brightness: Brightness.light, // use dark not see primary color screen black
           ),
